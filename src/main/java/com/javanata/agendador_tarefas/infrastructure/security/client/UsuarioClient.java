@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name = "usuario",url = "${usuario.url}")
 public interface UsuarioClient {
 
-    @GetMapping
+    @GetMapping("/usuario")
     UsuarioDTO bucarUsuarioPorEmail(@RequestParam("email")String email,
                                     @RequestHeader("Autorization")String token);
 
 
-    //Revisar e fazer commit
+
 
 }
