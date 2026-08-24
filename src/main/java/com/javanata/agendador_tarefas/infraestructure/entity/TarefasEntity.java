@@ -10,11 +10,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
 
-@Document
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
+@Document( collection = "tarefas")
 public class TarefasEntity {
 
     @Id
