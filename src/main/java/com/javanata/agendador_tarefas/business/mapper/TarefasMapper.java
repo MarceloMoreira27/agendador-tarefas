@@ -8,7 +8,7 @@ import org.mapstruct.Mapper;
 import java.util.List;
 
 @Mapper(componentModel = "spring" )
-public interface TarefasMapper  {
+public interface TarefasMapper {
 
     TarefasEntity paraTarefasEntity(TarefasDTO dto);
 
