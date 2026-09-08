@@ -2,7 +2,7 @@ package com.javanata.agendador_tarefas.infraestructure.security;
 
 
 import com.javanata.agendador_tarefas.infraestructure.client.UsuarioClient;
-import com.javanata.agendador_tarefas.infraestructure.dto.UsuarioDTO;
+import com.javanata.agendador_tarefas.business.dto.UsuarioDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
